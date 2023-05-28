@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PlayerActivity">
     
     <TextView
         android:layout_width="wrap_content"
@@ -17,11 +17,11 @@
         android:padding="10dp"
         android:layout_centerHorizontal="true" />
 
-    
-    <WebView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/webView"/>
+    <TextView
+        android:id="@+id/jsonDataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
     <ProgressBar
         android:id="@+id/loading_indicator"
@@ -35,19 +35,12 @@
         android:id="@+id/btnPlayAudio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play wxyc"
+        android:text="Play/pause wxyc"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         />
 
-    <Button
-        android:id="@+id/btnPauseAudio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pause"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/btnPlayAudio"
-        />
+
 
 
 

@@ -3,5 +3,6 @@
     <base-config cleartextTrafficPermitted="true" />
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">http://audio-mp3.ibiblio.org:8000/wxyc-alt.mp3</domain>
+        <domain includeSubdomains="true">http://wxyc.info/playlists/recentEntries?n=10</domain>
     </domain-config>
 </network-security-config>
